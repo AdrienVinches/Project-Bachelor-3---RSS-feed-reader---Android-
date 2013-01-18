@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+		android:text="@string/FeedName" />
+
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/dialogRss_name" 
+		android:hint="@string/nameTextField" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/FeedUrl" />
+
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/dialogRss_url" 
+		android:hint="@string/urlTextField" />
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_horizontal|bottom">
+
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@android:string/cancel" android:id="@+id/dialogRss_cancel_button" />
+
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@android:string/ok" android:id="@+id/dialogRss_submit_button" />
+
+	</LinearLayout>
+
+</LinearLayout>  
+
+
+

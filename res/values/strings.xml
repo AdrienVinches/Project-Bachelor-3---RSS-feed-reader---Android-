@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SupReader!</string>
+    <string name="app_name">SupReader</string>
+    <string name="new_feed">New feed</string>
+    <string name="delete_feed">Remove the current Feed</string>
+    <string name="quit">Quit</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="FeedUrl">Feed URL: </string>
+    <string name="FeedName">Name: </string>
+    <string name="nameTextField">Enter a name for the feed </string>
+    <string name="urlTextField">Enter the link to the feed </string>
+</resources>
